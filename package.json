@@ -1,0 +1,22 @@
+{
+  "name": "pusher-app",
+  "version": "1.0.0",
+  "description": "real time polling app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Ahmad Bashir",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.16",
+    "pusher": "^1.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.3"
+  }
+}
